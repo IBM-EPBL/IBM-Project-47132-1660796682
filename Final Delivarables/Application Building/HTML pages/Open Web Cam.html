@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body , html {
+  margin: 0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(77, 244, 186);
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 24px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active, button:hover {
+  background-color: rgb(91, 92, 86);
+  color: rgb(70, 241, 190);
+}
+
+.topnav a{
+  background-color: #0a0a0a;
+  color: rgb(70, 241, 190);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  height: 300px !important;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.button:hover{
+  color:#aaa !important;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="button active" href ="./Open Web Cam.html">Open Web Cam</a>
+  <a class="button " href="./Introduction.html">Introduction</a>
+  <a class="button "href="./Home.html">Home</a>
+  <h2 style="color: rgb(13, 13, 14);text-align:center;">AI Based Natural Disaster Analysis</h2>
+</div>
+
+<div style="height:82vh;display:flex;flex-direction:row;justify-content:center;align-items:center">
+  <img src="Emergency.jpg" alt="Emergency Image" >
+</div>
+</html>
