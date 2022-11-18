@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  input[type=file] {
+  width: 20%; 
+  background-color: #3de9b5; 
+  color: rgb(2, 2, 2);
+  padding: 15px ;
+  margin: 170px;
+  border: none;
+  border-radius: 100px;
+  cursor:pointer;
+  }
+ input[type=submit] {
+  width: 20%;
+  background-color: #3de9b5;
+  color: rgb(2, 2, 2);
+  padding: 15px ;
+  margin: 170px;
+  border: none;
+  border-radius: 100px;
+  cursor:pointer;
+}
+input[type=submit]:hover {
+  background-color: #27bd90;
+}
+input[type=file]:hover {
+  background-color: #27bd90;
+}
+body , html {
+  margin: 0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(77, 244, 186);
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 24px 24px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active, button:hover {
+  background-color: rgb(91, 92, 86);
+  color: rgb(70, 241, 190);
+}
+
+.topnav a{
+  background-color: #0a0a0a;
+  color: rgb(70, 241, 190);
+}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+</style>
+</head>
+</style>
+</head>
+<body>
+<div class="topnav">
+  <a class="button active" href ="./Upload.html">Upload</a>
+  <a class="button " href="./Introduction.html">Introduction</a>
+  <a class="button "href="./Home.html">Home</a>
+  <h2 style="color: rgb(13, 13, 14);text-align:center;">AI Based Natural Disaster Analysis</h2>
+</div>
+<form action="/action_page.php">
+  <input type="file" id="my file" name="Upload">
+  <input type="submit">
+</form>
+
+</html>
